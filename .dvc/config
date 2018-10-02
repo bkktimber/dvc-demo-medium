@@ -1,0 +1,4 @@
+['remote "dvc-repo"']
+url = ssh://datawow@datawow5:/home/datawow/projects/dvc_repo
+[core]
+remote = dvc-repo
