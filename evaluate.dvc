@@ -1,0 +1,14 @@
+cmd: python scripts/evaluate.py data/model.pkl data/matrix-test.pkl auc.metric
+deps:
+- md5: 6570db179732195bce53950e47ef0d83
+  path: scripts/evaluate.py
+- md5: ab4cfa4c28b121d1a9b3dbb33715dcaf
+  path: data/model.pkl
+- md5: 2e3d1a7d1e540cd3e6325a86f3cf8ff5
+  path: data/matrix-test.pkl
+md5: b4aa3e24cd6fd05da04c7f742efcd2e4
+outs:
+- cache: false
+  md5: 2a080e337c458c79c1ee7aab57decd3c
+  metric: true
+  path: auc.metric
