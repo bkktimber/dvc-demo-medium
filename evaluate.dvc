@@ -2,13 +2,13 @@ cmd: python scripts/evaluate.py data/model.pkl data/matrix-test.pkl auc.metric
 deps:
 - md5: 6570db179732195bce53950e47ef0d83
   path: scripts/evaluate.py
-- md5: 7b2028027537c90e06f386df21c61fea
+- md5: 67ec5a8140852b4fdf92e75476937523
   path: data/model.pkl
-- md5: 8229bdcbb795c7cb43b36d85f78279ef
+- md5: 0284f64f6efd8cfec921bb8baa48262e
   path: data/matrix-test.pkl
-md5: 8d53f3e9dbada1a8294b54f059dfc500
+md5: 92e8ddf027bb50a74ce0ecb0c987ff79
 outs:
 - cache: false
-  md5: be4fcdd11eb340e32108e8f29a71063a
+  md5: d98e5800fae2abfd5952a0fd0f17befb
   metric: true
   path: auc.metric

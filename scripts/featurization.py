@@ -70,7 +70,7 @@ df_train = get_df(train_input)
 train_words = np.array(df_train.text.str.lower().values.astype('U'))
 
 bag_of_words = CountVectorizer(stop_words='english',
-                               max_features=3000,
+                               max_features=500,
                                ngram_range=(1, 2))
 bag_of_words.fit(train_words)
 train_words_binary_matrix = bag_of_words.transform(train_words)

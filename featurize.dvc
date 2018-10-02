@@ -1,17 +1,17 @@
 cmd: python scripts/featurization.py data/Posts-train.tsv data/Posts-test.tsv data/matrix-train.pkl
   data/matrix-test.pkl
 deps:
-- md5: bd82fcd9eaeac2475b8ace3100456032
+- md5: 980611de20ba9295deb1b2a1cde5323d
   path: scripts/featurization.py
 - md5: 9916619870195e5b5363931b4fdc551c
   path: data/Posts-train.tsv
 - md5: df96975a3e98890294f4ab248784aa5c
   path: data/Posts-test.tsv
-md5: 8181e0b53843b743d463306afce965f6
+md5: 4a9688af1b2540e10f0ee6b8e7ecb893
 outs:
 - cache: true
-  md5: 4eae8a2b9fe3453fae90b0f0d26e6e1a
+  md5: b8b50dfc11de8c2c904a887860f44679
   path: data/matrix-train.pkl
 - cache: true
-  md5: 8229bdcbb795c7cb43b36d85f78279ef
+  md5: 0284f64f6efd8cfec921bb8baa48262e
   path: data/matrix-test.pkl

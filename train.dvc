@@ -2,10 +2,10 @@ cmd: python scripts/train_model.py data/matrix-train.pkl 20170426 data/model.pkl
 deps:
 - md5: 2ae37349103f07a7d614ca939d1bf467
   path: scripts/train_model.py
-- md5: 4eae8a2b9fe3453fae90b0f0d26e6e1a
+- md5: b8b50dfc11de8c2c904a887860f44679
   path: data/matrix-train.pkl
-md5: 005f93a236f3495f2359e9f62b2cb1fa
+md5: a74e7c951f325e9db20c55662f747293
 outs:
 - cache: true
-  md5: 7b2028027537c90e06f386df21c61fea
+  md5: 67ec5a8140852b4fdf92e75476937523
   path: data/model.pkl
