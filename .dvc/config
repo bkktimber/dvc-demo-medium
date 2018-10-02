@@ -1,4 +1,5 @@
-['remote "dvc-repo"']
-url = ssh://datawow@datawow5:/home/datawow/projects/dvc_repo
 [core]
-remote = dvc-repo
+remote = dvc-repo-aws
+['remote "dvc-repo-aws"']
+url = s3://dvc-demo-aws/
+profile = default
